@@ -1,20 +1,41 @@
-body{ background-color: #e0e0e6; display: flex; flex-direction: column;justify-content: center; align-items: center;min-height: 100vh; margin: 0;
+body{ 
+    background-color: #e0e0e6; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0;
+
 }
 
 .cartao-perfil {
             background-color: #f4f4f9;
             border: 1px solid #ddd;
-            border-radius: 10px;
+            border-radius: 50px;
             padding: 40px;
             max-width: 250px;
             text-align: center;
-            font-family: sans-serif;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-family: Arial, Helvetica, sans-serif;
+            box-shadow: 0 4px 6px rgba(219, 13, 13, 0.1);
 }
-.perfil{width:150;
+.avatar{
+    width: 150px;       
+    background-color: #ecd2c0;
+    border: 1px solid #ddd;
+    border-radius: 100px;
+    padding: 10px;    
 
 
 }
+.perfil h2{
+    color:#000000;
+    font-family: bold;
+    font-weight: 700;
+    
+
+}
+
 #html{
     background-color: #e07979;
     border: 1px solid #e07979;
@@ -27,7 +48,7 @@ body{ background-color: #e0e0e6; display: flex; flex-direction: column;justify-c
 #css{
     background-color: #66a3bb;
     border: 1px solid #66a3bb;
-    border-radius: 10px;
+    border-radius: 50px;
     padding: 5px;
     max-width: 100px;
     color: #110799;
@@ -36,7 +57,7 @@ body{ background-color: #e0e0e6; display: flex; flex-direction: column;justify-c
 #git{
     background-color: #7acc7e;
     border: 1px solid #7acc7e;
-    border-radius: 10px;
+    border-radius: 50px;
     padding: 5px;
     max-width: 100px;
     color: #036608;
@@ -44,12 +65,20 @@ body{ background-color: #e0e0e6; display: flex; flex-direction: column;justify-c
 }
 
 
-.bottom{
+.disponivel{
 
     background-color: #7acc7e;
     border: 1px solid #7acc7e;
     border-radius: 50px;
-    padding: auto;
-    color: #000200;
+    padding: 5px;
+    color: #085308;
 
+}
+
+
+.SENAI{
+    color:#110799;
+    font-family: bold;
+    font-weight: 700;
+    text-decoration: underline;
 }
